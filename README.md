@@ -3,7 +3,7 @@ Serve the files in PHP so that you can Authenticate the USERS showing the conten
 
 ## Usage
 
-```sh
+```php
 // Get the absolute path of the file. For Example: "C:/Users/Arif/myfile.ext", "/path/video.mp4" etc...
 $path = "/path/file" ;
 
