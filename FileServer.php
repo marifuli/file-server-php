@@ -27,7 +27,7 @@ class FileServer
     }
      
     /**
-     * Set proper header to serve the video content
+     * Set proper header to serve contents
      */
     private function setHeader()
     {
@@ -91,7 +91,7 @@ class FileServer
     }
      
     /**
-     * perform the streaming of calculated range
+     * perform the streaming of calculated range for videos, audios
      */
     private function stream()
     {
@@ -110,7 +110,7 @@ class FileServer
     }
      
     /**
-     * Start streaming video content
+     * Serve content
      */
     function serve()
     {
@@ -120,3 +120,4 @@ class FileServer
         $this->end();
     }
 }
+
